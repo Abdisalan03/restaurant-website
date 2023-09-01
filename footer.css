@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    /* place-content: end; */
+    flex-direction: column;
+    height:100vh;
+    width:100wh;
+
+}
+:root{
+    --bg:#24aa94;
+    --bg-light:#24aa9444;
+    --text:#fff;
+    --hover:#ffff00;
+    --light:#ffff0031;
+
+}
+footer{
+    background-color: var(--bg-light);
+    line-height: 24px;
+    color: var(--text);
+
+}
+footer .arg{
+    background-color: var(--bg);
+    padding: 16px;
+    padding-top: 48px;
+    clip-path:polygon(0% 5%,15% 0%,100% 10%,100% 100%,0% 100%);
+    display: inline-flex;
+    flex-flow: wrap;
+    
+}
+footer .gold{
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+
+}
+footer header{
+    font-size: 21px;
+    padding-block: 5px;
+
+}
+footer .gold a{
+    display: block;
+    padding-block: 5px;
+    color: var(--text);
+    text-decoration: none;
+    opacity: 0.65;
+}
+footer .gold a:hover{
+    opacity: 1;
+    color: var(--hover);
+    font-size: 18px;
+
+}
+footer input{
+    border-style: solid;
+    line-height: 10px;
+    padding: 8px 12px;
+    font-size: 0.5rem;
+    width: 100%;
+    margin-block:8px ;
+    border-radius: 4px;
+    border-width: 2px;
+
+}
+footer input[type="email"]{
+    background-color: transparent;
+    border-color: var(--text);
+    color: var(--text);
+    width: 200px;
+}
+footer input[type="email"]:hover,
+footer input[type="email"]:focus{
+    border-color: var(--hover);
+    color: var(--hover);
+
+}
+footer input[type="submit"]{
+    background-color: var(--text);
+    color:var(--bg);
+    text-transform: uppercase;
+    border: none;
+    width: 200px;
+}
+footer input[type="submit"]:hover{
+    background-color: var(--hover);
+}
+footer .social{
+    margin-block:10px ;
+    display: grid;
+    grid-template-columns: repeat(,1fr);
+    grid-gap: 16px;
+    width: 200px;
+}
+footer .social i{
+    font-size: 25px;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid var(--light);
+    border-radius: 4px;
+    /* width: 50%; */
+    
+}
+footer .social i:hover{
+    color: var(--hover);
+    border-color: var(--hover);
+    box-shadow: 0px 0px 16px inset var(--light);
+
+}
+footer .notice{
+    text-align: center;
+    padding: 24px;
+
+}
+footer .notice strong{
+    color: var(--hover);
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background:url("3333.jpg");
+            background-size: cover;
+
+        }
+        form{
+            margin-top: 50px;
+            text-align: center;
+
+        }
+        input{
+            display: block;
+            width: 350px;
+            height: 40px;
+            margin: 20px;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            border-bottom: 1px solid white;
+            background:transparent ;
+            color:yellow;
+        }
+        button{
+            width: 350px;
+            height: 40px ;
+            font-size: 20px;
+            background-color: blue;
+            border: none;
+            color: white;
+            margin-top: 20px;
+            
+        }
+        form h1{
+            margin-bottom: 30px;
+            color: white;
+        }
+        ::placeholder{
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+<form>
+<H1>Request food</H1>
+<input type="text" name="" placeholder="user name">
+<input type="text" name="" list="tech" placeholder="Resturant">
+<datalist id="tech">
+    <option>ice cream</html></option>
+    <option>humburger</option>
+    <option >chiken</option>
+</datalist>
+    <input type="Email " name="" placeholder="Email">
+    <input type="password" name="" placeholder="passaword">
+    <input type="password" name="" placeholder="confirm passaword">
+    <button type="submit">signup</button>
+
+</form>
+</body>
+</html>

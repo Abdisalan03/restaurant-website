@@ -1,0 +1,49 @@
+body{
+    background-image: url('Liido.jpg');
+    width: 100% 710px;
+    padding-top: 100px;
+}
+.f{
+    background-color: rgb(173, 0, 81);
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    border: 5px solid yellow;
+}
+.f input{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.f input[name="email"]{
+    width: 410px;
+}
+.f input[name="sex"]{
+    width: 25px;
+    margin-top: 5px;
+}
+.f input[name="c"]{
+    width: 20px;
+    margin-top: 5px;
+}
+.f input[type="submit"]{
+   border-radius: 10px;
+   float: right;
+   padding-right: 10px;
+   width: 150px;
+   background-color: teal;
+   color: tomato;
+   font-weight: bold;
+}
+.f input[type="submit"]:hover{
+    background-color: green;
+    color: #fff;
+}
